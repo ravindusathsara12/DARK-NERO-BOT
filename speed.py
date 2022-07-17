@@ -1992,5 +1992,5 @@ def main():
             raise SystemExit('ERROR: %s' % msg)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     main()
