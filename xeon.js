@@ -558,7 +558,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         type = 'sticker'
         mimetype = 'image/webp'
         }
-       else if (/image/.test(mime)) type = 'image'
+       else if (/image/.test(mime)) type = 'image' 
        else if (/video/.test(mime)) type = 'video'
        else if (/audio/.test(mime)) type = 'audio'
        else type = 'document'
