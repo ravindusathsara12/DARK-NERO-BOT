@@ -1289,7 +1289,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: './storage/image/tambang.jpg' },
       caption: caption,
-      footer: pushname,
+      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
       buttons: buttons,
       headerType: 4
      }
@@ -1524,7 +1524,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: image },
       caption: teksehmazeh,
-      footer: pushname,
+      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
       buttons: buttons,
       headerType: 4
      }
@@ -2464,7 +2464,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: XeonBotInc.user.name,
+                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -2507,7 +2507,7 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: XeonBotInc.user.name,
+                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -2551,7 +2551,7 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: XeonBotInc.user.name,
+                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -3193,7 +3193,7 @@ if (isBanChat) return reply(mess.banChat)
       from, 
       {
        text: "Group Settings",
-       footer: botname,
+       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
        title: "Set your group settings here......",
        buttonText: "Click Button",
        sections
@@ -7606,7 +7606,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `${themeemoji} Title : ${result.title}\n${themeemoji} Source : ${result.source}\n${themeemoji} Media Url : ${result.image}`,
-                    footer: XeonBotInc.user.name,
+                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -8223,7 +8223,7 @@ ${themeemoji} Caption : ${anu.caption}
 ${themeemoji} Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
-			footer: XeonBotInc.user.name,
+            footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 			buttons,
 			headerType: 4
 		    }
