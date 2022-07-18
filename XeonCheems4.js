@@ -1289,7 +1289,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: './storage/image/tambang.jpg' },
       caption: caption,
-      footer: pushname,
+      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
       buttons: buttons,
       headerType: 4
      }
@@ -1524,7 +1524,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: image },
       caption: teksehmazeh,
-      footer: pushname,
+      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
       buttons: buttons,
       headerType: 4
      }
@@ -3193,7 +3193,7 @@ if (isBanChat) return reply(mess.banChat)
       from, 
       {
        text: "Group Settings",
-       footer: botname,
+       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
        title: "Set your group settings here......",
        buttonText: "Click Button",
        sections
@@ -6420,7 +6420,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: `${pushname}`,
+footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6447,7 +6447,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: `${pushname}`,
+footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6517,7 +6517,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: `${pushname}`,
+footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6544,7 +6544,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: `${pushname}`,
+footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8223,7 +8223,7 @@ ${themeemoji} Caption : ${anu.caption}
 ${themeemoji} Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
-			footer: XeonBotInc.user.name,
+            footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
 			buttons,
 			headerType: 4
 		    }
