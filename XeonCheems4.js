@@ -1289,7 +1289,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: './storage/image/tambang.jpg' },
       caption: caption,
-      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: pushname,
       buttons: buttons,
       headerType: 4
      }
@@ -1524,7 +1524,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: image },
       caption: teksehmazeh,
-      footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: pushname,
       buttons: buttons,
       headerType: 4
      }
@@ -2464,7 +2464,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                footer: XeonBotInc.user.name,
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -2507,7 +2507,7 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                footer: XeonBotInc.user.name,
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -2551,7 +2551,7 @@ ${vote[m.chat][2].map((v, i) => `┃╠ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                footer: XeonBotInc.user.name,
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -3193,7 +3193,7 @@ if (isBanChat) return reply(mess.banChat)
       from, 
       {
        text: "Group Settings",
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+       footer: botname,
        title: "Set your group settings here......",
        buttonText: "Click Button",
        sections
@@ -3362,7 +3362,7 @@ if (!isCreator) return replay(mess.owner)
 	     	for (let yoi of anu) {
 	     	await sleep(1500)
 		    var button = [{ buttonId: `${prefix}ho`, buttonText: { displayText: `${melo2}` }, type: 1 }]              
-            XeonBotInc.sendMessage(yoi, { caption: `${melo}`, location: { jpegThumbnail: await getBuffer(picak+`${ownername}'s Broadcast`) }, buttons: button, footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃', })
+            XeonBotInc.sendMessage(yoi, { caption: `${melo}`, location: { jpegThumbnail: await getBuffer(picak+`${ownername}'s Broadcast`) }, buttons: button, footer: `${botname}`, mentions: [m.sender] })
 		}		
             }
             break
@@ -3631,7 +3631,7 @@ reply(mess.wait)
       let buttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3763,7 +3763,7 @@ reply(mess.wait)
       let buttonsssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3782,7 +3782,7 @@ reply(mess.wait)
       let button1ssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3801,7 +3801,7 @@ reply(mess.wait)
       let button12ssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3838,7 +3838,7 @@ reply(mess.wait)
       let button112ssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3857,7 +3857,7 @@ reply(mess.wait)
       let buttonssMessage = {
        image: {url:waifud.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbutsss,
       headerType: 4
       }
@@ -3895,7 +3895,7 @@ reply(mess.wait)
       let btutttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3914,7 +3914,7 @@ reply(mess.wait)
       let xxbuttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3952,7 +3952,7 @@ reply(mess.wait)
       let buttonussMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3971,7 +3971,7 @@ reply(mess.wait)
       let bxxuttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -3990,7 +3990,7 @@ reply(mess.wait)
       let buttoxnssMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -4009,7 +4009,7 @@ reply(mess.wait)
       let buttonssxMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -4028,7 +4028,7 @@ reply(mess.wait)
       let button1ssxMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbutt1sss,
       headerType: 4
       }     
@@ -4047,7 +4047,7 @@ reply(mess.wait)
       let buttonszzsxMessages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszzss,
       headerType: 4
       }     
@@ -4066,7 +4066,7 @@ reply(mess.wait)
       let buttonszzsx12Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz12ss,
       headerType: 4
       }     
@@ -4085,7 +4085,7 @@ reply(mess.wait)
       let buttonszzsx123Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz123ss,
       headerType: 4
       }     
@@ -4104,7 +4104,7 @@ reply(mess.wait)
       let buttonszzsx124Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz124ss,
       headerType: 4
       }     
@@ -4123,7 +4123,7 @@ reply(mess.wait)
       let buttonszzsx125Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz125ss,
       headerType: 4
       }     
@@ -4142,7 +4142,7 @@ reply(mess.wait)
       let buttonszzsx126Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz126ss,
       headerType: 4
       }     
@@ -4161,7 +4161,7 @@ reply(mess.wait)
       let buttonszzsx127Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz127ss,
       headerType: 4
       }     
@@ -4180,7 +4180,7 @@ reply(mess.wait)
       let buttonszzsx128Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz128ss,
       headerType: 4
       }     
@@ -4199,7 +4199,7 @@ reply(mess.wait)
       let buttonszzsx129Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz129ss,
       headerType: 4
       }     
@@ -4218,7 +4218,7 @@ reply(mess.wait)
       let buttonszzsx1210Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1210ss,
       headerType: 4
       }     
@@ -4237,7 +4237,7 @@ reply(mess.wait)
       let buttonszzsx1211Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1211ss,
       headerType: 4
       }     
@@ -4256,7 +4256,7 @@ reply(mess.wait)
       let buttonszzsx1212Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1212ss,
       headerType: 4
       }     
@@ -4275,7 +4275,7 @@ reply(mess.wait)
       let buttonszzsx1213Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1213ss,
       headerType: 4
       }     
@@ -4294,7 +4294,7 @@ reply(mess.wait)
       let buttonszzsx1214Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1214ss,
       headerType: 4
       }     
@@ -4313,7 +4313,7 @@ reply(mess.wait)
       let buttonszzsx1215Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1215ss,
       headerType: 4
       }     
@@ -4332,7 +4332,7 @@ reply(mess.wait)
       let buttonszzsx1216Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1216ss,
       headerType: 4
       }     
@@ -4351,7 +4351,7 @@ reply(mess.wait)
       let buttonszzsx1217Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1217ss,
       headerType: 4
       }     
@@ -4370,7 +4370,7 @@ reply(mess.wait)
       let buttonszzsx1218Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1218ss,
       headerType: 4
       }     
@@ -4389,7 +4389,7 @@ reply(mess.wait)
       let buttonszzsx1219Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1219ss,
       headerType: 4
       }     
@@ -4408,7 +4408,7 @@ reply(mess.wait)
       let buttonszzsx1220Messages = {
        image: {url:waifudd.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: wbuttszz1220ss,
       headerType: 4
       }     
@@ -4427,7 +4427,7 @@ var wbutsss = [
       let buttonsesMessage = {
       image: {url:ud.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
           buttons: wbutsss,
      headerType: 4
                       }
@@ -4446,7 +4446,7 @@ var wbutsss = [
       let buttonzMessage = {
       image: {url:ud.data.url},
        caption:  `Here you go!`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
           buttons: wbutsss,
      headerType: 4
                       }
@@ -4465,7 +4465,7 @@ reply(mess.wait)
   let button1Messages = {
    image: {url:waifudd.data.url},
    caption:  `Here you go!`,
-   footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+   footer: `${global.botname}`,
   buttons: wbuttsss,
   headerType: 2
   }       
@@ -4492,7 +4492,7 @@ var walb = [
       let wal = {
        image: {url:wallpaper[i].image},
        caption: `*Query :* ${q}`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+      footer: `${global.botname}`,
       buttons: walb,
       headerType: 4
       }     
@@ -4525,7 +4525,7 @@ case 'naruto':
 			    var query = ["naruto hd","naruto boruto","naruto sasuke", "naruto aesthetic", "naruto aesthetic"]
                 var data = await pinterest(pickRandom(query))
 				var but = [{buttonId: `naruto`, buttonText: { displayText: "Next🔜" }, type: 1 }]
-				XeonBotInc.sendMessage(from, { caption: `Here you go!`, image: { url: pickRandom(data.result) }, buttons: but, footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',)
+				XeonBotInc.sendMessage(from, { caption: `Here you go!`, image: { url: pickRandom(data.result) }, buttons: but, footer: `${botname}` }, { quoted: m })
  			    break
 case 'yaoi':
 			if (isBan) return reply(mess.ban)
@@ -4534,7 +4534,7 @@ case 'yaoi':
 			    var query = ["yaoi","yaoi aesthetic","yaoi hd","yaoi ganteng"]
                 var data = await pinterest(pickRandom(query))
 				var but = [{buttonId: `${command}`, buttonText: { displayText: "Next🔜" }, type: 1 }]
-				XeonBotInc.sendMessage(from, { caption: "Here you go!", image: { url: pickRandom(data.result) }, buttons: but, footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',)
+				XeonBotInc.sendMessage(from, { caption: "Here you go!", image: { url: pickRandom(data.result) }, buttons: but, footer: `${botname}` }, { quoted: m })
  			    break
 case 'coffee': case 'kopi': {
 	if (isBan) return reply(mess.ban)	 			
@@ -4545,7 +4545,7 @@ if (isBanChat) return reply(mess.banChat)
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `Here you go!`,
-                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                    footer: `${botname}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4587,7 +4587,7 @@ if (isBanChat) return reply(mess.banChat)
       m.chat, 
       {
        text: `${data.meta.title} *Here is the list of videos, click the button below to choose*`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+       footer: `${botname}`,
        title: "*SAVE FROM*",
        buttonText: "CLICK HERE",
        sections
@@ -6168,7 +6168,7 @@ caption: `*| GOOGLE IMAGE |*
 
 ${global.themeemoji} Query : ${text}
 ${global.themeemoji} Media Url : ${images}`,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6210,7 +6210,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -6290,7 +6290,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -6420,7 +6420,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${pushname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6447,7 +6447,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${pushname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6517,7 +6517,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${pushname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6544,7 +6544,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${pushname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6628,7 +6628,7 @@ if (isBan) return reply(mess.ban)
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+       footer: `${botname}`,
        title: "*APK DOWNLOADER,*",
        buttonText: "CLICK HERE",
        sections
@@ -7064,7 +7064,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -7089,7 +7089,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -7116,7 +7116,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -7140,7 +7140,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4
 }
@@ -7555,7 +7555,7 @@ if (isBanChat) return reply(mess.banChat)
                 ]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                    footer: 'Press The Button Below',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -7575,7 +7575,7 @@ if (isBanChat) return reply(mess.banChat)
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `Title : ${result.title}\nCategory : ${result.type}\nDetail : ${result.source}\nMedia Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                    footer: `${botname}`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -7606,7 +7606,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `${themeemoji} Title : ${result.title}\n${themeemoji} Source : ${result.source}\n${themeemoji} Media Url : ${result.image}`,
-                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                    footer: XeonBotInc.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -7624,7 +7624,7 @@ break
                 ]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-                    footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+                    footer: 'Press The Button Below',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -7972,7 +7972,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:xeontiktokop},
 caption: texttk,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8041,7 +8041,7 @@ ${global.themeemoji} Author : ${anu.author.name}
 ${global.themeemoji} Channel : ${anu.author.url}
 ${global.themeemoji} Description : ${anu.description}
 ${global.themeemoji} Url : ${anu.url}`,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8076,7 +8076,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8166,7 +8166,7 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  `${global.dogeemoji} Title : ` + args.join(" ") + `\n${global.dogeemoji} Media Url : `+imgnyee,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${global.botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8223,7 +8223,7 @@ ${themeemoji} Caption : ${anu.caption}
 ${themeemoji} Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
-            footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+			footer: XeonBotInc.user.name,
 			buttons,
 			headerType: 4
 		    }
@@ -8758,7 +8758,7 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -8822,7 +8822,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
             { quickReplyButton: { displayText: `List Menu 🔎`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 👑`, id: 'owner'} }
         	]
-        	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',)
+        	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
                      }
             break
