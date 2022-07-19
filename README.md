@@ -1,6 +1,6 @@
 
 
-<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩4ꫂ<br></h1>
+<h1 align="center">DARK NERO<br></h1>
 <p align="center">
 <img src="https://media.tenor.com/images/e15cb1453a09e25bab41116d930329bf/tenor.gif" alt="animated" width="540" height="280" />
 </p>
@@ -57,7 +57,7 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 - FORK THE REPOSITORY [Here](https://github.com/Kaveeshasithum/DARK-NERO-BOT/fork)
 
 ## `Scan QR Code For Session`
-[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Kaveesha2006/DARK-NERO-BOT-1?v=1&lite=1#index.js)
 
 ## `SETTINGS`
 
