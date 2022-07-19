@@ -2,8 +2,7 @@
 
 <h1 align="center">DARK NERO<br></h1>
 <p align="center">
-<img src="https://media.tenor.com/images/e15cb1453a09e25bab41116d930329bf/tenor.gif" alt="animated" width="540" height="280" />
-</p>
+<img src="https://i.ibb.co/5LT7brL/Whats-App-Image-2022-07-19-at-1-07-23-PM.jpg" alt="Whats-App-Image-2022-07-19-at-1-07-23-PM" border="0">
 
 <p align="center">
 Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
