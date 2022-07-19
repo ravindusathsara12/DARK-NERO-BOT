@@ -6115,7 +6115,7 @@ break
 	      scale: "100%",
 	      outputFile 
 	    }).then(async result => {
-	    XeonBotInc.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.╰☆☆ ᴅᴀʀᴋ ɴᴇʀᴏ ☆☆╮}, { quoted : m })
+	    XeonBotInc.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.success}, { quoted : m })
 	    await fs.unlinkSync(localFile)
 	    await fs.unlinkSync(outputFile)
 	    })
@@ -6318,7 +6318,7 @@ case 'mp4' : {
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Where's the link ?`)
 try {
-XeonBotInc.sendMessage(from, {video:{url:args[0]}, caption:"╰☆☆ ᴅᴀʀᴋ ɴᴇʀᴏ ☆☆╮", contextInfo:{externalAdReply:{
+XeonBotInc.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.ownername}`,
 thumbnail: log0,
@@ -6336,7 +6336,7 @@ case 'jpeg': {
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Where's the link?`)
 try {
-XeonBotInc.sendMessage(from, {image:{url:args[0]}, caption:"╰☆☆ ᴅᴀʀᴋ ɴᴇʀᴏ ☆☆╮", contextInfo:{externalAdReply:{
+XeonBotInc.sendMessage(from, {image:{url:args[0]}, caption:"Success", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.ownername}`,
 thumbnail: log0,
@@ -8098,7 +8098,7 @@ break
 case 'ytvd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-XeonBotInc.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"╰☆☆ ᴅᴀʀᴋ ɴᴇʀᴏ ☆☆╮", contextInfo:{externalAdReply:{
+XeonBotInc.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
 title:`${global.botname}`,
 body:`${global.botname}`,
 thumbnail: log0,
