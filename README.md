@@ -3,7 +3,11 @@
 <h1 align="center">DARK NERO<br></h1>
 <p align="center">
 <img src="https://i.ibb.co/5LT7brL/Whats-App-Image-2022-07-19-at-1-07-23-PM.jpg" alt="Whats-App-Image-2022-07-19-at-1-07-23-PM" border="0">
-
+ 
+ 
+ ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+☬DARK༒NERO࿐+࿐;💕ඉතිං+කොහොමද🙃;😁මොකද+කරන්නෙ🌹) ]
+ 
+ 
 <p align="center">
 Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
@@ -35,6 +39,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 <a href="https://wa.me/94774579505"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
+<img src="https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966" alt="nz" width="600"/>
 
 ## ```Donate Me```
 
@@ -49,6 +54,9 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 - [`1st GC`](https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX)
 - [`2nd GC`](https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX)
 - [`3rd GC`](https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX)
+
+
+<img src="https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966" alt="nz" width="600"/>
 
 # Setup For Deployment 👇
 
@@ -65,6 +73,9 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 - CHANGE OWNER NAME [Here](https://github.com/Kaveeshasithum/DARK-NERO-BOT.git/blob/master/settings.js#L59)
 - CHANGE BOT NAME [Here](https://github.com/Kaveeshasithum/DARK-NERO-BOT.git/blob/master/settings.js#L67)
 
+
+<img src="https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966" alt="nz" width="600"/>
+
 ## ` BUILDPACKS`
 
 ```
@@ -73,6 +84,9 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD4/)
+  
+
+<img src="https://camo.githubusercontent.com/71b837571c48af3aa60a73dbc9d5936aa359d78efbfa8a6743cbbbc16b80ef4d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830353930323039333930363630383138362f3830353931333937323533353539303932322f74656e6f722e676966" alt="nz" width="600"/>
 
 # Install Manually 👇
 ## `Requirements`
